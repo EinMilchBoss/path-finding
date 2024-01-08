@@ -1,7 +1,5 @@
 package orientation
 
-import kotlin.math.absoluteValue
-
 enum class Direction(val step: Vector) {
     UP(Vector(0, -1)),
     DOWN(Vector(0, 1)),
